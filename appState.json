@@ -1,0 +1,99 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "ef5274b3-f71e-4a85-93c7-8d7ec5da6ab4": {
+        "id": "ef5274b3-f71e-4a85-93c7-8d7ec5da6ab4",
+        "parent": null,
+        "name": "CLITestNodeLambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "CLITestNodeLambda.js",
+        "cursor": {
+          "lineNumber": 33,
+          "column": 11
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "CLITestNodeLambda"
+        },
+        "triggers": []
+      }
+    },
+    "openFiles": [
+      "ef5274b3-f71e-4a85-93c7-8d7ec5da6ab4"
+    ],
+    "currentFileId": "ef5274b3-f71e-4a85-93c7-8d7ec5da6ab4",
+    "resources": {
+      "snsusEast1MyNNotificationTopic": {
+        "name": "snsusEast1MyNNotificationTopic",
+        "type": "SNS",
+        "config": {
+          "topicMode": 0,
+          "topicName": "MyNNotificationTopic",
+          "topicArn": "arn:aws:sns:us-east-1:CUR_AWS_ACCOUNT:MyNNotificationTopic",
+          "topicRegion": "us-east-1",
+          "snsType": 0,
+          "topicDisplayName": "NNotifications",
+          "subscriptions": []
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "json-validity": {
+          "name": "json-validity",
+          "version": "1.0.0",
+          "dev": false,
+          "language": "nodejs"
+        },
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.3.27",
+    "projectName": "CLITestNodeProject",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1592565861520
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "clitestnodeproject",
+      "url": "https://github.com/zgma-test/clitestnodeproject"
+    }
+  }
+}
